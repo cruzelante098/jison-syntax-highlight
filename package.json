@@ -2,7 +2,7 @@
   "name": "jison-syntax-highlight",
   "displayName": "Jison Syntax Highlighting",
   "description": "Provides support for Jison grammars syntax highlighting",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "cruzelante098",
   "engines": {
     "vscode": "^1.35.0"
