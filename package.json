@@ -2,7 +2,7 @@
   "name": "jison-syntax-highlight",
   "displayName": "Jison Syntax Highlighting",
   "description": "Provides support for Jison grammars syntax highlighting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "cruzelante098",
   "engines": {
     "vscode": "^1.35.0"
@@ -15,21 +15,25 @@
     "url": "https://github.com/cruzelante098/language-jison.git"
   },
   "contributes": {
-    "languages": [{
-      "id": "jison",
-      "aliases": [
-        "Jison",
-        "jison"
-      ],
-      "extensions": [
-        ".jison"
-      ],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "jison",
-      "scopeName": "source.jison",
-      "path": "./syntaxes/jison.tmLanguage"
-    }]
+    "languages": [
+      {
+        "id": "jison",
+        "aliases": [
+          "Jison",
+          "jison"
+        ],
+        "extensions": [
+          ".jison"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jison",
+        "scopeName": "source.jison",
+        "path": "./syntaxes/jison.tmLanguage"
+      }
+    ]
   }
 }
