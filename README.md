@@ -20,6 +20,4 @@ GOTO [issues section in the repo](<https://github.com/cruzelante098/language-jis
 
 ## Release Notes
 
-### 1.0.0
-
-Initial release.
+Refer to [CHANGELOG.md](./CHANGELOG.md).

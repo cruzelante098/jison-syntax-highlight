@@ -2,8 +2,12 @@
 
 All notable changes to the "jison" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.1.1
 
-## [Unreleased]
+### Changed
+
+- Section about Release Notes in README.md to amend incorrect version number.
+
+## 0.1.0
 
 - Initial release
