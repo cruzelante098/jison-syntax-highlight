@@ -1,6 +1,6 @@
 # Jison Syntax Highlight support for VS Code
 
-This extension brings syntax highlight for the Jison grammars files in VS Code. It's a fork from the Atom extension (also used by Github Linguist), created by Chris Dibbern (<https://github.com/cdibbs>). Jison is a parser generator quite similar to Bison, but it uses Javascript (and also generates parsers written in JS) instead of C or C++.
+This extension brings syntax highlight for Jison grammars files in VS Code. It's a fork from the Atom extension (also used by Github Linguist), created by Chris Dibbern (<https://github.com/cdibbs>). Jison is a parser generator quite similar to Bison, but it uses Javascript (and also generates parsers written in JS) instead of C or C++.
 
 ## Features
 
