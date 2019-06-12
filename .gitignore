@@ -1,0 +1,8 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+jison-syntax-highlight-1.0.0.vsix
+vsc-extension-quickstart.md

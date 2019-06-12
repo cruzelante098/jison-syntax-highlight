@@ -1,25 +1,35 @@
 {
-    "name": "jison-syntax-highlight",
-    "displayName": "Jison Syntax Highlighting",
-    "description": "Provides support for Jison grammars syntax highlighting",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.35.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "jison",
-            "aliases": ["Jison", "jison"],
-            "extensions": [".jison"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "jison",
-            "scopeName": "source.jison",
-            "path": "./syntaxes/jison.tmLanguage"
-        }]
-    }
+  "name": "jison-syntax-highlight",
+  "displayName": "Jison Syntax Highlighting",
+  "description": "Provides support for Jison grammars syntax highlighting",
+  "version": "0.0.1",
+  "publisher": "cruzelante098",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cruzelante098/language-jison.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "jison",
+      "aliases": [
+        "Jison",
+        "jison"
+      ],
+      "extensions": [
+        ".jison"
+      ],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jison",
+      "scopeName": "source.jison",
+      "path": "./syntaxes/jison.tmLanguage"
+    }]
+  }
 }
