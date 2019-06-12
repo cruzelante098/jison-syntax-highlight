@@ -15,8 +15,7 @@
     "url": "https://github.com/cruzelante098/language-jison.git"
   },
   "contributes": {
-    "languages": [
-      {
+    "languages": [{
         "id": "jison",
         "aliases": [
           "Jison",
@@ -25,14 +24,34 @@
         "extensions": [
           ".jison"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./jison-language-configuration.json"
+      },
+      {
+        "id": "jisonlex",
+        "aliases": [
+          "JisonLex",
+          "jisonlex"
+        ],
+        "extensions": [
+          ".jisonlex"
+        ],
+        "configuration": "./jisonlex-language-configuration.json"
       }
     ],
-    "grammars": [
-      {
+    "grammars": [{
         "language": "jison",
         "scopeName": "source.jison",
         "path": "./syntaxes/jison.tmLanguage"
+      },
+      {
+        "language": "jisonlex",
+        "scopeName": "source.jisonlex",
+        "path": "./syntaxes/jisonlex.tmLanguage"
+      },
+      {
+        "path": "./syntaxes/jisonlex-injection.tmLanguage",
+        "scopeName": "jisonlex.injection",
+        "injectTo": ["source.jison"]
       }
     ]
   }

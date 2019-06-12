@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>name</key>
+    <string>Jison Lex Injection</string>
+    <key>scopeName</key>
+    <string>source.jisonlex-injection</string>
+    <key>injectionSelector</key>
+    <string>L:(meta.rule.action.jisonlex - comment)</string>
+    <key>patterns</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>variable.language.jisonlex</string>
+        <key>match</key>
+        <string>\byy(?:l(?:eng|ineno|loc)|text)\b</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
