@@ -16,7 +16,7 @@ None.
 
 ## Known Issues
 
-GOTO [issues section in the repo](<https://github.com/cruzelante098/language-jison/issues>).
+GOTO [issues section in the repo](<https://github.com/cruzelante098/jison-syntax-highlight/issues>).
 
 ## Release Notes
 
